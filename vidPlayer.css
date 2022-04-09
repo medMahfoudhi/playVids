@@ -1,0 +1,56 @@
+#container{
+    padding: 10px
+}
+#playButtons, #nextButtons{
+    padding: 10px;
+   
+    
+    margin-bottom: 20;
+}
+#myVideo{
+    width: 100%;
+}
+#vidNum{
+    float: right;
+    color: white;
+}
+#timeOut{
+    float: left;
+    color: white;
+}
+button{
+    width: 50px;
+    background-color: rgb(171, 142, 169); 
+    padding: 15px;
+}
+#box{
+    padding-top: 10px;
+}
+center{
+    width: 66%;
+    padding-left: 245px;
+    height: 60%;
+}
+body{
+    background-image: url(background3.gif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+#image1{
+    float: right;
+    padding-top: 170px;
+    
+}
+#browser{
+    background-color: dimgrey;
+
+}
+.genre{
+    width: 20%;
+    height: 30px;
+    
+    background-color: rgb(231, 225, 217); 
+    float: left;
+}

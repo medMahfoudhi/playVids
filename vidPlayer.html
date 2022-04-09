@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Player With JS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="vidPlayer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    
+    <img id="image1" src="image1.gif" alt="">
+    
+      <center >
+        <button id="rap" class="genre">Rap</button>
+        <button id="hits" class="genre">hits</button>
+        <button id="cars" class="genre">Cars</button>
+        <button id="places" class="genre">Beautiful Citys </button>
+        <button id="funny" class="genre">funny</button>
+      <video ondblclick="skipVideo()" onmouseover="playVideo()" onmouseout="pauseVideo()"  id="myVideo"   src="rap1.mp4" ></video>
+      <output id="vidNum">Videos:1/2</output>
+      <div id="box">
+        <div id="playButtons">
+          <button id="btnPlay" ><i class="fa-solid fa-play"></i></button>
+          <button id="btnPause"><i class="fa-solid fa-pause"></i></button>
+          <button id="btnStop"><i class="fa-solid fa-stop"></i></button>
+            <button id="btnNext"><i class="fa-solid fa-forward"></i></button>
+          
+        </div>
+      </div>
+      
+    </center>
+    </div>
+    
+    <script src="vidPlayer.js"></script>
+  </body>
+</html>
